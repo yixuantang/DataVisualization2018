@@ -9,7 +9,7 @@ __Team Member__
 
  Fangshu Lin[(fangshulin)](https://github.com/fangshulin)
 
-Hongkai He[(gc2300)](https://github.com/davidhk1994)
+Hongkai He[(davidhhk1994)](https://github.com/davidhhk1994)
 
  Yixuan Tang[(yixuantang)](https://github.com/yixuantang)
 
