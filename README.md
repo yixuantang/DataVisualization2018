@@ -2,6 +2,9 @@
 
 2018 course project 
 
+## Title
+Exploring the relationship between National Education Expenditure and Youth Literacy Rate
+
 ## Overview
 
 ![Alt text](ScreenShot_1.png)
@@ -18,3 +21,7 @@ Hongkai He[(davidhhk1994)](https://github.com/davidhhk1994)
 
 
 * Check our Website [here](http://172.16.14.254:5004) !
+
+
+## Visualization description
+This visualization project consists of two maps. The top map depicts how much each country in the world spent (% of GDP)on education in a particular year. The bottom map tells reader the how many people between 15 and 24 in each country in the world can read and write. A reader can observe how education expenditure and literacy rate change over time by moving the slider bar.
