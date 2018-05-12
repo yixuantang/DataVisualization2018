@@ -36,14 +36,14 @@ interaction:
 * Each map has a corresponding slider bar. By dragging the slider bars from left to right, a reader can see the change of the two factors over time from 1990 to 2017 by observing the change in color luminance (or value) in each country. 
 * The reader can also compare the two factors in the same year by abchoring the two slider bars at the same position. 
 * In addition, below each map there is a bar chart changing synchronically with the map. The bar chart shows the absolute education expenditure or literacy rate value of each country with the height and the color luminance of a signle bar represent the value of the corresponding country. It is worth noticing that number of bars also changes depending on how many countries have or do not have data in a given year. For example, if in a year there are 54 countries have actual data entries and the other countries does not have, there will be only 54 bars displayed in the bar chart. The x ticks of the bar charts are three-letter country name abbreviations. 
-* A reader can also obtain the specific value of a target country by moving his/her cursor onto that country. The value and the country code will pop out and will remain its appearance until the cursor moves away. 
+* A reader can also obtain the specific value of a target country by moving his/her cursor onto that country. The value and the country code will pop out and will remain its appearance until the cursor moves away. If there's no value of that country in that year, onlt the country code will display, followed by NA.
 * Another interaction is that if the reader moves his/her cursor onto one category in the legend, the map will only display the countries that fall in this category in color. Countries in all other categories will be in light grey.
 
 representation: 
 * We use blue as our background color because first of all it represent water which conforms to the geographical common sense that continents are surrounded by ocean. Secondly it provides excellent chrominance contrast against the color we use to fill each country. 
 * Another chrominance contrast we use is that the hue of the upper map is different from that of the lower map. By doing so the maps tell readers that they represent two different indicators. 
-* we use a single color hue for each map but different luminance to represent different values of different countries because human readers have higher contrast sensitivity in luminance than in chrominance channel.
-* for the two bar charts, the marks are rectangles and the channel we use is the vertical lengths as well as the color luminance of the rectangles. 
+* We use a single color hue for each map but different luminance to represent different values of different countries because human readers have higher contrast sensitivity in luminance than in chrominance channel.
+* For the two bar charts, the marks are rectangles and the channel we use is the vertical lengths as well as the color luminance of the rectangles. 
 
 ## Datasets
 
@@ -72,5 +72,5 @@ This informative visualization project generally accomplishes it goal of providi
 
 ## Possible Future Work
 * Add a new interaction feature that can allow a reader to manually type in a country name to select that country. This feature will help people who may have a poor geographic knowledge of where the country is to quickly and qccurately locate target country.
-* Generalize this visualization project to other datasets hosted by World Bank. It will be tedious to make a new map for each dataset since there are hundreds of them. A better solusion is to create another interactive feature that allows readers to choose which dataset he/she want to explore. 
+* Generalize this visualization project to other datasets hosted by World Bank. It will be tedious to make a new map for each dataset since there are hundreds of them. A better solution is to create another interactive feature that allows readers to choose which dataset he/she want to explore. 
 
