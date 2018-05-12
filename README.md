@@ -50,16 +50,18 @@ representation:
 all the datasets are obtained from World Bank data hub. The name and link of each dataset are listed as follows:
 
 [Government expenditure on education, total (% of GDP)](https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?view=chart)
+
 [Literacy rate, youth female (% of females ages 15-24)](https://data.worldbank.org/indicator/SE.ADT.1524.LT.FE.ZS)
 
 The datasets have a time span from 1960 to now. However we only select data after 1990 because there is great absence of observations before 1990 in both datasets and this will lead to poor visualization effects. 
 Both datasets have been pre-processed and converted from csv file to json file before they are inserted in the visualization. The links to the json dataset are listed below:
 
 [education expenditure](https://raw.githubusercontent.com/yixuantang/DataVisualization2018/master/Dataset/education_expend.json)
+
 [literacy rate](https://raw.githubusercontent.com/yixuantang/DataVisualization2018/master/Dataset/literacy.json)
 
 In addition a json file that contains the geographical coordinates and geometries of all countries' boundaries is used to draw the map. 
-[Countries i the World](https://raw.githubusercontent.com/yixuantang/DataVisualization2018/master/Dataset/world.json)
+[Countries in the World](https://raw.githubusercontent.com/yixuantang/DataVisualization2018/master/Dataset/world.json)
 
 ## Outcome and Evaluation
 This informative visualization project generally accomplishes it goal of providing an ituitive way for people to better understand the trends and patterns in the two datasets. However, one important "force majeure" that compromises this project's capability of providing a complete picture for each individual country is the lack of data. There are many countries which do not have data entries in all years hecne they remain in grey all the time and provide no insights. Other countries also suffer from intermittent absence of entries in several years. The visualization project will be more completed if the World Bank can fill in those blancks or more complete datasets from another authority can be found. 
