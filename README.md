@@ -60,7 +60,8 @@ Both datasets have been pre-processed and converted from csv file to json file b
 
 [literacy rate](https://raw.githubusercontent.com/yixuantang/DataVisualization2018/master/Dataset/literacy.json)
 
-In addition a json file that contains the geographical coordinates and geometries of all countries' boundaries is used to draw the map. 
+In addition a json file that contains the geographical coordinates and geometries of all countries' boundaries is used to draw the map.
+
 [Countries in the World](https://raw.githubusercontent.com/yixuantang/DataVisualization2018/master/Dataset/world.json)
 
 ## Outcome and Evaluation
