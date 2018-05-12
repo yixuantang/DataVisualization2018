@@ -47,7 +47,7 @@ representation:
 
 ## Datasets
 
-all the datasets are obtained from World Bank data hub. The name and link of each dataset are listed as follows:
+All the datasets are obtained from World Bank data hub. The name and link of each dataset are listed as follows:
 
 [Government expenditure on education, total (% of GDP)](https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?view=chart)
 
@@ -72,5 +72,7 @@ This informative visualization project generally accomplishes it goal of providi
 
 ## Possible Future Work
 * Add a new interaction feature that can allow a reader to manually type in a country name to select that country. This feature will help people who may have a poor geographic knowledge of where the country is to quickly and qccurately locate target country.
+* Since the literacy dataset only contains relatively few records for each country during the period from 1990 to 2016, there are some blank areas in the map when selecting some year, we will try to incorperate more detailed dataset so that those blank area can be filled.
 * Generalize this visualization project to other datasets hosted by World Bank. It will be tedious to make a new map for each dataset since there are hundreds of them. A better solution is to create another interactive feature that allows readers to choose which dataset he/she want to explore. 
+
 
