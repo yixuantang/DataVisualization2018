@@ -32,7 +32,7 @@ Hongkai He[(davidhhk1994)](https://github.com/davidhhk1994)
 ## Visualization description
 This visualization project consists of two choropleth maps. The top map depicts how much each country in the world spent (% of GDP)on education in a particular year. The bottom map tells reader the how many people between 15 and 24 in each country in the world can read and write. 
 
-interaction: 
+Interaction: 
 - Each map has a corresponding slider bar. By dragging the slider bars from left to right, a reader can see the change of the two factors over time from 1990 to 2016 by observing the change in color lightness (or value) in each country. 
 - The reader can also compare the two factors in the same year by abchoring the two slider bars at the same position. 
 - In addition, below each map there is a bar chart changing synchronically with the map. The bar chart shows the absolute education expenditure or literacy rate value of each country with the height and the color lightness of a signle bar represent the value of the corresponding country. 
@@ -47,6 +47,7 @@ interaction:
 all the datasets are obtained from World Bank data hub. The name and link of each dataset are listed as follows:
 
 [Government expenditure on education, total (% of GDP)](https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?view=chart)
+
 [Literacy rate, youth female (% of females ages 15-24)](https://data.worldbank.org/indicator/SE.ADT.1524.LT.FE.ZS)
 
 The datasets have a time span from 1960 to now. However we only select data after 1990 because there is great absence of observations before 1990 in both datasets and this will lead to poor visualization effects. 
