@@ -9,7 +9,7 @@ Exploring the relationship between National Education Expenditure and Youth Lite
 #### a brief context of the project, and what tasks you're aiming to solve using visualizations, domain(target user) and task abstraction.
 This visualization project serves mainly as an educational tool. The primary function of this project is to demonstrate how the government expenditure on education (% of GDP) and the Youth (15 - 24) Literacy rate of every country in the world change over time, from 1990 to 2017. Readers can make comparison among different countries as well as comparing how was the perfornamce one particular country in terms of the aformensioned two indicators in different years. 
 It can be used in several contexts described below: 
-* Helping World Bnak to improve the user-friendliness of its data hub website by adding interactive visualization so that visitors can dig more insightful information ot of the datasets;
+* Helping World Bank to improve the user-friendliness of its data hub website by adding interactive visualization so that visitors can dig more insightful information ot of the datasets;
 * Providing visualization tools for scholars in thier research on the effects of education on iliteracy on a global scale;
 * Assisting economic or sociology lecturers in Universities to show students how educational expenditure and literacy rate change over time, and to inspire students to explore the possible interactions between these two factors. 
 The target users are scholars, students, policy makers in international organizations, and general users of World Bank datasets, etc.
