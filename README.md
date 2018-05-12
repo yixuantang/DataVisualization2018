@@ -59,5 +59,5 @@ The datasets have a time span from 1960 to now. However we only select data afte
 * Check our Website [here](http://vis2018g16.pythonanywhere.com) !
 
 ## Possible Future Work
-
+Since the literacy rate dataset only contains relatively few records for each country during the period 1990 to 2016, there are some blank areas in the map when selecting some years, we will try to incorperate more detailed dataset and fill those blank areas.
 
