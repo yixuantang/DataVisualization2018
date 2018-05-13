@@ -31,7 +31,7 @@ Hongkai He[(davidhhk1994)](https://github.com/davidhhk1994)
 
 ## Visualization description
 This visualization project consists of two choropleth maps. The top map depicts how much each country in the world spent (% of GDP)on education in a particular year. The bottom map tells reader the how many people between 15 and 24 in each country in the world can read and write. 
-
+We used Flask frame for the front-end and back-end. 
 interaction: 
 * Each map has a corresponding slider bar. By dragging the slider bars from left to right, a reader can see the change of the two factors over time from 1990 to 2017 by observing the change in color luminance (or value) in each country. 
 * The reader can also compare the two factors in the same year by abchoring the two slider bars at the same position. 
