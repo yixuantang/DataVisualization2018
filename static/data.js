@@ -176,7 +176,7 @@ var svg_bars_2 = d3.select("body")
     });
 
 
-function myinitmap_2(data) {
+function myinitmap_2(data_2) {
   let color_2 = calcColorScale_2(data_2);
 
   // read map
